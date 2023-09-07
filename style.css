@@ -41,31 +41,52 @@ h1 {
   width: 490px;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1 span {
   color: #89c5cc;
   font-weight: 700;
 }
 
-p {
+section p {
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
   width: 438px;
+  margin-bottom: 40px 0;
 }
 
 button {
+  color: white;
+  background-color: #69b99d;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 32px 15px 32px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #5da68d;
 }
 
 footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
 }
 
 footer a {
   color:#000;
   font-weight: 700;
   text-decoration: none;
-
 }
