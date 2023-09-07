@@ -29,10 +29,12 @@ ul {
 ul li a{
   color: #1f1534;
   text-decoration: none;
+  opacity: 0.5;
 }
 
 ul li a:hover{
   font-weight: 700;
+  opacity: 1;
 }
 
 h1 {
